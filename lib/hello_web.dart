@@ -12,7 +12,7 @@ import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 class HelloWeb {
   static void registerWith(Registrar registrar) {
     final MethodChannel channel = MethodChannel(
-      'hello',
+      'main',
       const StandardMethodCodec(),
       registrar,
     );
